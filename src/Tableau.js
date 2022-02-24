@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import tableauSoftware from 'tableau-api';
 
 const url = "http://public.tableau.com/views/RegionalSampleWorkbook/College";
 export class Tableau extends Component {
