@@ -15,7 +15,7 @@ import Tableau9 from "./Tableau9";
 export class  DemoCarousel extends Component {
     render() {
         return (
-            <Carousel showThumbs={false} autoPlay={true} interval={4000} infiniteLoop={true} >
+            <Carousel showThumbs={false} interval={400} infiniteLoop={true} >
                 <div>
                     <Tableau></Tableau>
                     <p className="legend">DASHBOARD 1</p>
