@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import tableauSoftware from 'tableau-api';
 console.log(tableauSoftware)
-const url = "https://public.tableau.com/views/RegionalSampleWorkbook/College";
+const url = "https://www.tableaugs.com/t/Site_Conectividad/views/TablerogeneralConectividad/IPNDash?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link";
 
 export class Tableau extends Component {
 
