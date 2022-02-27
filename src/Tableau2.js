@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import tableauSoftware from 'tableau-api';
 console.log(tableauSoftware)
-const url = "https://public.tableau.com/views/RegionalSampleWorkbook/College";
+const url = "https://public.tableau.com/views/RegionalSampleWorkbook/Storms";
 
-export class Tableau extends Component {
+export class Tableau2 extends Component {
 
     componentDidMount() {
         this.initViz();
@@ -20,14 +20,14 @@ export class Tableau extends Component {
         this.div = new window.tableauSoftware.Viz(vizContainer, url, options);
     }
 
-     
+
     render() {
-      return (
+        return (
             <div ref = {div => this.vizContainer = div } >
-                
+
             </div>
         )
     }
 }
 
-export default Tableau
+export default Tableau2
