@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import tableauSoftware from 'tableau-api';
 console.log(tableauSoftware)
-const url = "https://www.tableaugs.com/#/site/Site_Conectividad/views/TablerogeneralConectividad/TVOUI?:iid=1";
+const url = "https://www.tableaugs.com/t/Site_Conectividad/views/TablerogeneralConectividad/Evaluacin5estrellas?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link";
 
 export class Tableau3 extends Component {
 
