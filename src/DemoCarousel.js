@@ -15,44 +15,33 @@ import Tableau9 from "./Tableau9";
 export class  DemoCarousel extends Component {
     render() {
         return (
-            <Carousel showThumbs={false} autoPlay ={true} interval={4000} infiniteLoop={true} >
+            <Carousel showThumbs={false} autoPlay ={true} interval={30000} infiniteLoop={true} >
                 <div>
                     <Tableau></Tableau>
-                    <p className="legend">DASHBOARD 1</p>
                 </div>
                 <div>
                     <Tableau2></Tableau2>
-                    <p className="legend">DASHBOARD 2</p>
                 </div>
                 <div>
                     <Tableau3></Tableau3>
-                    <p className="legend">DASHBOARD 3</p>
                 </div>
-
                 <div>
                     <Tableau4></Tableau4>
-                    <p className="legend">DASHBOARD 4</p>
                 </div>
                 <div>
                     <Tableau5></Tableau5>
-                    <p className="legend">DASHBOARD 5</p>
                 </div>
                 <div>
                     <Tableau6></Tableau6>
-                    <p className="legend">DASHBOARD 6</p>
                 </div>
-
                 <div>
                     <Tableau7></Tableau7>
-                    <p className="legend">DASHBOARD 7</p>
                 </div>
                 <div>
                     <Tableau8></Tableau8>
-                    <p className="legend">DASHBOARD 8</p>
                 </div>
                 <div>
                     <Tableau9></Tableau9>
-                    <p className="legend">DASHBOARD 9</p>
                 </div>
 
 

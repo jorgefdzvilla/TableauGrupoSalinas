@@ -12,7 +12,7 @@ export class Tableau4 extends Component {
     initViz = () => {
         const options = {
             iframe: false,
-            hideTabs: true,
+            hideTabs: false,
             width: '1280px',
             height: '720px',
         }
