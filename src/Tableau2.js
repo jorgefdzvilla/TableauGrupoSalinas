@@ -12,7 +12,7 @@ export class Tableau2 extends Component {
     initViz = () => {
         const options = {
             iframe: false,
-            hideTabs: false,
+            hideTabs: true,
             width: '1280px',
             height: '720px',
         }
