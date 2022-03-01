@@ -17,13 +17,13 @@ export class  DemoCarousel extends Component {
         return (
             <Carousel showThumbs={false} autoPlay ={true} interval={30000} infiniteLoop={true} >
                 <div>
-                    <Tableau></Tableau>
-                </div>
-                <div>
                     <Tableau2></Tableau2>
                 </div>
                 <div>
                     <Tableau3></Tableau3>
+                </div>
+                <div>
+                    <Tableau></Tableau>
                 </div>
                 <div>
                     <Tableau4></Tableau4>

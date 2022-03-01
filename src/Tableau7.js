@@ -14,8 +14,8 @@ export class Tableau7 extends Component {
         const options = {
             iframe: false,
             hideTabs: false,
-            width: '1280px',
-            height: '720px',
+            width: '100%',
+            height: '100vh',
         }
         const vizContainer = this.vizContainer;
         this.div = new window.tableauSoftware.Viz(vizContainer, url, options);
