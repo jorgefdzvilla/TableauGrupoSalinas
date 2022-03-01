@@ -23,7 +23,7 @@ export class Tableau5 extends Component {
 
     render() {
         return (
-            <div ref = {div => this.vizContainer = div } >
+            <div className="tablero" ref={div => this.vizContainer = div}>
 
             </div>
         )

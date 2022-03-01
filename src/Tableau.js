@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import tableauSoftware from 'tableau-api';
 console.log(tableauSoftware)
-const url = "https://www.tableaugs.com/t/Site_Conectividad/views/TablerogeneralConectividad/IPNDash?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link";
+const url = "http://public.tableau.com/views/WorldIndicators/GDPpercapita";
 
 export class Tableau extends Component {
 
@@ -13,8 +13,8 @@ export class Tableau extends Component {
         const options = {
             iframe: false,
             hideTabs: false,
-            width: '1280px',
-            height: '720px',
+            width: '100%',
+            height: '900px',
         }
         const vizContainer = this.vizContainer;
         this.div = new window.tableauSoftware.Viz(vizContainer, url, options);
@@ -23,7 +23,7 @@ export class Tableau extends Component {
      
     render() {
       return (
-            <div ref = {div => this.vizContainer = div } >
+            <div class = "tablero" ref = {div => this.vizContainer = div } >
                 
             </div>
         )
