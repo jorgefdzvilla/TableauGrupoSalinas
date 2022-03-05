@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import tableauSoftware from 'tableau-api';
 console.log(tableauSoftware)
-const url = "https://www.tableaugs.com/t/Site_Conectividad/views/TablerogeneralConectividad/CampaasSMS?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link";
+const url = "https://www.tableaugs.com/t/Site_Conectividad/views/TablerogeneralConectividad/CPV?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link";
 
-export class Tableau6 extends Component {
+export class TableauCPV extends Component {
 
     componentDidMount() {
         this.initViz();
@@ -30,4 +30,4 @@ export class Tableau6 extends Component {
     }
 }
 
-export default Tableau6
+export default TableauCPV

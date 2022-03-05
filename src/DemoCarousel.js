@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import Tableau from "./Tableau";
-import Tableau2 from "./Tableau2";
+import Tableau5Estrellas from "./Tableau5Estrellas";
+import TableauCPV from "./TableauCPV";
 import Tableau3 from "./Tableau3";
-import Tableau4 from "./Tableau4";
-import Tableau5 from "./Tableau5";
-import Tableau6 from "./Tableau6";
-import Tableau7 from "./Tableau7";
-import Tableau8 from "./Tableau8";
-import Tableau9 from "./Tableau9";
+import TableauLentoDesplazamiento from "./TableauLentoDesplazamiento";
+import TableauTVOUI from "./TableauTVOUI";
+import TableauCampanasSMS from "./TableauCampanasSMS";
+import TableauCeremonias from "./TableauCeremonias";
+import TableauCeremoniasScrum from "./TableauCeremoniasScrum";
+import TableauEventosPortafolio from "./TableauEventosPortafolio";
 
 
 export class  DemoCarousel extends Component {
@@ -17,33 +17,23 @@ export class  DemoCarousel extends Component {
         return (
             <Carousel showThumbs={false} autoPlay ={true} interval={30000} infiniteLoop={true} >
                 <div>
-                    <Tableau2></Tableau2>
+                    <TableauCPV></TableauCPV>
                 </div>
                 <div>
                     <Tableau3></Tableau3>
                 </div>
                 <div>
-                    <Tableau></Tableau>
+                    <Tableau5Estrellas></Tableau5Estrellas>
                 </div>
                 <div>
-                    <Tableau4></Tableau4>
+                    <TableauLentoDesplazamiento></TableauLentoDesplazamiento>
                 </div>
                 <div>
-                    <Tableau5></Tableau5>
+                    <TableauTVOUI></TableauTVOUI>
                 </div>
                 <div>
-                    <Tableau6></Tableau6>
+                    <TableauCampanasSMS></TableauCampanasSMS>
                 </div>
-                <div>
-                    <Tableau7></Tableau7>
-                </div>
-                <div>
-                    <Tableau8></Tableau8>
-                </div>
-                <div>
-                    <Tableau9></Tableau9>
-                </div>
-
 
             </Carousel>
         );

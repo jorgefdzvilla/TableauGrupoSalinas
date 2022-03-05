@@ -4,7 +4,7 @@ console.log(tableauSoftware)
 const url = "https://www.tableaugs.com/t/Site_Conectividad/views/TablerogeneralConectividad/Ceremonias?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link";
 
 
-export class Tableau7 extends Component {
+export class TableauCeremonias extends Component {
 
     componentDidMount() {
         this.initViz();
@@ -31,4 +31,4 @@ export class Tableau7 extends Component {
     }
 }
 
-export default Tableau7
+export default TableauCeremonias

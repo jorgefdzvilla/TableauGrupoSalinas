@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import tableauSoftware from 'tableau-api';
 console.log(tableauSoftware)
-const url = "https://www.tableaugs.com/t/Site_Conectividad/views/TablerogeneralConectividad/EventosPortafolio?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link";
+const url = "https://www.tableaugs.com/t/Site_Conectividad/views/TablerogeneralConectividad/Lentodezplazamiento?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link";
 
-export class Tableau9 extends Component {
+export class TableauLentoDesplazamiento extends Component {
 
     componentDidMount() {
         this.initViz();
@@ -30,4 +30,4 @@ export class Tableau9 extends Component {
     }
 }
 
-export default Tableau9
+export default TableauLentoDesplazamiento

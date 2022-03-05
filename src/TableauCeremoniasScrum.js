@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import tableauSoftware from 'tableau-api';
 console.log(tableauSoftware)
-const url = "https://www.tableaugs.com/t/Site_Conectividad/views/TablerogeneralConectividad/Evaluacin5estrellas?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link";
-export class Tableau extends Component {
+const url = "https://www.tableaugs.com/t/Site_Conectividad/views/TablerogeneralConectividad/CeremoniasSCRUM?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link";
+
+export class TableauCeremoniasScrum extends Component {
 
     componentDidMount() {
         this.initViz();
@@ -19,14 +20,14 @@ export class Tableau extends Component {
         this.div = new window.tableauSoftware.Viz(vizContainer, url, options);
     }
 
-     
+
     render() {
-      return (
-            <div className = "tablero" ref = {div => this.vizContainer = div } >
-                
+        return (
+            <div className="tablero" ref={div => this.vizContainer = div}>
+
             </div>
         )
     }
 }
 
-export default Tableau
+export default TableauCeremoniasScrum
