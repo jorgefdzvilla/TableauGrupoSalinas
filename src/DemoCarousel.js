@@ -3,7 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import Tableau5Estrellas from "./Tableau5Estrellas";
 import TableauCPV from "./TableauCPV";
-import Tableau3 from "./Tableau3";
+import TableauIPNDash from "./TableauIPNDash";
 import TableauLentoDesplazamiento from "./TableauLentoDesplazamiento";
 import TableauTVOUI from "./TableauTVOUI";
 import TableauCampanasSMS from "./TableauCampanasSMS";
@@ -18,7 +18,7 @@ export class  DemoCarousel extends Component {
                     <TableauCPV></TableauCPV>
                 </div>
                 <div>
-                    <Tableau3></Tableau3>
+                    <TableauIPNDash></TableauIPNDash>
                 </div>
                 <div>
                     <Tableau5Estrellas></Tableau5Estrellas>
