@@ -15,13 +15,13 @@ export class  DemoCarousel extends Component {
         return (
             <Carousel showThumbs={false} autoPlay ={true} interval={30000} infiniteLoop={true} >
                 <div>
-                    <TableauCPV></TableauCPV>
+                    <Tableau5Estrellas></Tableau5Estrellas>
                 </div>
                 <div>
                     <TableauIPNDash></TableauIPNDash>
                 </div>
                 <div>
-                    <Tableau5Estrellas></Tableau5Estrellas>
+                    <TableauCPV></TableauCPV>
                 </div>
                 <div>
                     <TableauLentoDesplazamiento></TableauLentoDesplazamiento>
